@@ -1,0 +1,159 @@
+html {
+  font-size: 18px;
+  font-family: "roboto" "Arial", sans-serif;
+}
+.header {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  padding: 0 12%; /*0 top bottom, 12 right left*/
+  height: 4.44rem;
+  background-color: white;
+  /*box shadow 0 top 2 right 6 bottom, 0 entourage*/
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.05);
+  font-size: 0.77rem;
+  font-weight: bold;
+  color: black;
+}
+#logo {
+  background: url("../app/images/logo.png");
+  width: 150px;
+  height: 150px;
+  margin: 10px 15px 10px 0;
+}
+.header li {
+  display: inline;
+  padding-top: 2rem;
+  padding-right: 2.22rem;
+}
+.header li a {
+  text-decoration: underline;
+  color: #4a4a4a;
+}
+.home {
+  display: block;
+  height: 50rem;
+  background: url("https://static1.squarespace.com/static/566058cde4b0b44fe6ba3c90/571905a486db4307e3fb2669/57225f9d7c65e4befc85ab52/1462280118060/background-blue.png?format=1500w")
+    no-repeat;
+  background-size: 1400px 800px;
+  color: #ffb78c;
+}
+.home a {
+  color: rgb(241, 90, 66);
+  font-size: 2rem;
+  padding-left: 1rem;
+}
+.home h1 {
+  margin-left: auto;
+  margin-right: auto;
+  width: max-content;
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+.home h4 {
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+  padding: 0.55rem 0;
+  border-top: 4px solid #ffb78c;
+  border-bottom: 4px solid #ffb78c;
+  font-size: 1.44rem;
+  letter-spacing: 2px;
+  font-weight: 500;
+}
+.home .imgdeveloper {
+  width: 62%;
+  padding: 0.6rem;
+  border-radius: 5px;
+  margin: 0 auto 1rem auto;
+  background-color: white;
+}
+.bk {
+  /*border-top: 5px;*/
+  background: #1b4793;
+}
+.about {
+  display: block;
+  margin: center;
+  height: 15rem;
+}
+.about a {
+  color: rgb(241, 90, 66);
+  font-size: 2rem;
+  padding-left: 1rem;
+}
+.about p {
+  padding: 1em;
+  margin-bottom: 3.33rem;
+  text-align: justify;
+  font-size: 35px;
+  font-weight: 500;
+  padding-top: 2px 2px;
+  border-style: dotted;
+  border-color: #ffb78c;
+}
+
+.work a {
+  color: rgb(241, 90, 66);
+  font-size: 2rem;
+  padding-left: 1rem;
+}
+.audio {
+  text-align: center;
+  width: 480px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 35px;
+}
+.video {
+  text-align: center;
+  width: 480px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 35px;
+}
+.iframe {
+  text-align: center;
+  width: 480px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 35px;
+}
+
+.resume a {
+  color: rgb(241, 90, 66);
+  font-size: 2rem;
+  padding-left: 1rem;
+}
+
+.resume li {
+  
+  text-align: center ;
+  color: #4a4a4a;
+ 
+  font-size: 1.44rem;
+  font-weight: bold;
+ 
+}
+    
+
+.contact {
+ 
+  background-color: #ffb78c;
+  text-align: center;
+  height: 200px
+}
+.contact a {
+  color: rgb(241, 90, 66);
+  font-size: 2rem;
+  padding-left: 1rem;
+  text-align: left;
+}
+
+footer {
+  position:relative;
+  display: inline;
+  text-align: center;
+  color: rgb(241, 90, 66);
+}
