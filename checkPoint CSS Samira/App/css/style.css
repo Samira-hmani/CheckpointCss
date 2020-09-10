@@ -1,6 +1,7 @@
 html {
   font-size: 18px;
   font-family: "roboto" "Arial", sans-serif;
+  
 }
 .header {
   display: flex;
@@ -35,7 +36,7 @@ html {
   height: 50rem;
   background: url("https://static1.squarespace.com/static/566058cde4b0b44fe6ba3c90/571905a486db4307e3fb2669/57225f9d7c65e4befc85ab52/1462280118060/background-blue.png?format=1500w")
     no-repeat;
-  background-size: 1400px 800px;
+  background-size: 1400px 850px;
   color: #ffb78c;
 }
 .home a {
@@ -66,9 +67,15 @@ html {
   width: 62%;
   padding: 0.6rem;
   border-radius: 5px;
-  margin: 0 auto 1rem auto;
+  margin: 0 auto 
+  1rem auto;
   background-color: white;
 }
+.home .imgdeveloper p {
+  text-shadow: tomato;
+  height: 3px;
+}
+
 .bk {
   /*border-top: 5px;*/
   background: #1b4793;
@@ -120,7 +127,26 @@ html {
   margin-right: auto;
   margin-bottom: 35px;
 }
-
+.btn{
+  display: inline-block;
+  padding: 10px 15px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color:tomato;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+.button:hover {background-color:tomato}
+.button:active {
+  background-color: tomato;
+  box-shadow: 0 5p wheat;
+  transform: translateY(4px);
+}
 .resume a {
   color: rgb(241, 90, 66);
   font-size: 2rem;
@@ -131,7 +157,6 @@ html {
   
   text-align: center ;
   color: #4a4a4a;
- 
   font-size: 1.44rem;
   font-weight: bold;
  
